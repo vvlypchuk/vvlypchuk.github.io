@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Мій персональний Оксфорд</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+	</head>
+	<body>
+		<div class="container-index">
+			<div class="header">
+				<div class="header-center">
+					<img src="img/logo.png" alt="logo" class="logo wow fadeIn">
+					<div class="nav">
+						<ul class="nav-top wow fadeInLeft">
+							<a href="#"><li>Головна</li></a>
+							<a href="future-world.html"><li>Світ майбутнього</li>
+							<a href="learning_skills.html"><li>Навички навчання</li></a>
+						</ul>
+						<ul class="nav-bottom wow fadeInRight">
+							<a href="learning.html"><li>Вчимося вчитись</li></a>
+							<a href="never-stop-learning.html"><li>Never stop learning</li></a>
+							<a href="#"><li>Моя програма</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="top-block">
+				<div class="top-block-center">
+					<div class="top-block-left">
+						<h1 class="top-block-title wow fadeInDown">Мій персональний <br>Оксфорд</h1>
+						<p class="top-block-text wow fadeInLeft">Необхідність самоосвіти продиктована, з одного боку, самою специфікою вчительської діяльності, її соціальною роллю, з іншого боку – реаліями й тенденціями неперервної освіти, що пов’язано з мінливими умовами педагогічної праці, потреба суспільства, еволюцією науки і практики, вимогами до людини, її здатності швидко й адекватно реагувати на зміну суспільних процесів і ситуацій, готовності змінювати свою діяльність,
+						уміло розв’язувати нові складні завдання.</p>
+						<a href="#" class="top-block-left-button wow fadeInUp">Почати</a>
+					</div>
+					<div class="top-block-right">
+						<img src="img/intro-mobile.png" alt="img" class="top-block-img wow bounceInDown">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).on("scroll",function(){
+			    if($(document).scrollTop()>10){
+			        $(".header").css({'box-shadow': '0px 3px 6px 3px rgba(0, 0, 0, 0.06)'})
+			    } else{
+			        $(".header").css({'box-shadow':'none'})
+			    }
+			});
+		</script>
+	</body>
+</html>
